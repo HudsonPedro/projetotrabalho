@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--versão 1 02/09/2024 (HP.'.) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="header"> <!-- Descição da página -->
+        <h1>PORTIFÓLIO PESSOAL<br>HUDSON PEDRO SALES VALENTE</h1>
+    </div>
+    <form method="post" action="index.html"> <!-- Formulario html -->
+        <div onclick="abrirSobremim()" class="imagem sobremim"></div> <!-- Função abrir janela no javascript -->
+        <div class="janela-sobremim" id="janela-sobremim">
+            <div class="modal-sobremim">
+                <button class="fechar" id="fechar">X</button> <!-- Botão Fechar janela -->
+                <h1>Olá Meu nome é Hudson, tudo bem?</h1><br>
+                <option value="itens">Vou contar um pouco sobre mim.</option><br>
+                <p>Meu nome é Hudson Pedro Sales Valente, tenho 47 anos, nascido na Cidade de Manaus no Estado do Amazonas no ano de 1977.</p>
+                <p>Atualemente moro em Curitiba/PR à mais de 10 anos.</p>
+                <p>Sou casado, tenho 2 filhos</p>
+            </div>    
+        </div>
+        <div onclick="abrirFormacao()" class="imagem formacao"></div> <!-- Função abrir janela no javascript -->
+        <div class="janela-formacao" id="janela-formacao">
+            <div class="modal-formacao">
+                <button class="sfechar" id="sfechar">X</button> <!-- Botão Fechar janela -->
+                <h1>Minha formação.</h1><br>
+                <option value="itens">Caminhada escolar.</option><br>
+                <p>Ensino médio formção em Magistério no Instituto de Educação do Amazonas - IEA (Manaus/AM).</p>
+                <p>Ensino Superior incompleto por desistência na Escola Superior do Amazonas - ESBAM (Manaus/AM).</p>
+                <p>Ensino Superior completo em Gestão de Recursos Humanos - UNINTER (Curitiba/PR).</p>
+                <p>Ensino Superior cursando em CST ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - UNINTER (Curitiba/PR).</p>
+            </div>    
+        </div>
+        <div onclick="abrirExperiencia()" class="imagem experiencia"></div> <!-- Função abrir janela no javascript -->
+        <div class="janela-experiencia" id="janela-experiencia">
+            <div class="modal-experiencia">
+                <button class="ffechar" id="ffechar">X</button> <!-- Botão Fechar janela -->
+                <h1>Minha Experiência</h1><br>
+                <option value="itens">Caminhada profissional:</option><br>
+                <p>15 anos de experiência profissional em Departamento Pessoal e Reusrsos Humanos.</p>
+                <p>5 anos como prestador de serviços de tecnologia na Caixa Econômica Federal.</p>
+                <p>10 anos como consultor e analista de implantação de sistemas nos diversos setores como: Comércio varejista, Folha de pagamento público e privado.</p>
+                <p>Atualmente trabalho como PJ como Analista de implantação de sistemas no setor da cosntrução pesada: Engenharia, Concreteira, Pedreira, Usina de asfalto, Fábrica de pré-moldados e Locação de equipamentos.</p>    
+            </div>    
+        </div>      
+        <div onclick="abrirPortifolio()" class="imagem portifolio"></div> <!-- Função abrir janela no javascript -->
+        <div class="janela-portifolio" id="janela-portifolio">
+            <div class="modal-portifolio">
+                <button class="frfechar" id="frfechar">X</button> <!-- Botão Fechar janela -->
+                <h1>Meu Projeto</h1><br>
+                <option value="itens">Caminhada de Projeto:</option><br>
+                <p>Projeto Social na Prefeitura Municiapl de Manaus, Atuando como Orientador Social de jovens em situação de risco e apoio escolar.</p>    
+            </div>    
+        </div>
+        <div onclick="abrirContato()" class="imagem contato"></div> <!-- Função abrir janela no javascript -->
+        <div class="janela-contato" id="janela-contato">
+            <div class="modal-contato">
+                <button class="ctfechar" id="ctfechar">X</button> <!-- Botão Fechar janela -->
+                <h1>Meu Contato:</h1><br>
+                <option value="itens">Para maiores informações.</option><br>
+                <p>Nome: Hudson Pedro</p> 
+                <p>Cel: (41) 987265219</p>
+                <p>E-mail: hudson.pedro@hotmail.com</p>
+                <p>End: BR116, 17906, Bairro: Pinheirinho - Cd. Spazio Chardonnay, B3 Ap 807 </p>
+                <p>Cidade/UF: Curitiba-Paraná</p>
+                <p>Cep: 81690-410</p>    
+            </div>    
+        </div>           
+        <script src="script.js"></script>
+    </form>    
+</body>
+</html>
